@@ -6,8 +6,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'VueDialog.js',
-    library: 'VueDialog', 
+    filename: 'vue2-dialog.js',
+    library: 'vue2-dialog', 
     libraryTarget: 'umd', 
     umdNamedDefine: true 
   },

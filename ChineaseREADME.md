@@ -1,7 +1,7 @@
-# VueDialog
-> A mobile Vue plugin for VueDialog
+# vue2-dialog
+> A mobile Vue plugin for Dialog
 
-> pluginName:  VueDialog
+> pluginName:  vue2-dialog
 
 > version: 1.0.0
 
@@ -21,21 +21,21 @@
 ## 使用方法
 * 通过NPM下载安装插件
 ```node
-npm install VueDialog --save
+npm install vue2-dialog --save
 ```
 
 #### 1.在vue单文件里使用(vue-cli)
 * 通过import或者require 导入插件,手动调用Vue.use() ,全局调用(直接加载所有的组件)
 
 ``` javascript 
-import {VueDialog} from 'VueDialog'
+import {VueDialog} from 'vue2-dialog'
 Vue.use(VueDialog)
 ```
 
 * 通过import或者require 导入插件,手动调用Vue.use() ,按需加载(只会加载你需要的组件)
 
 ``` javascript 
-import {Scroller,Alert,Confirm} from 'VueDialog'
+import {Scroller,Alert,Confirm} from 'vue2-dialog'
 Vue.component(Scroller.name,Scroller)
 Vue.component(Alert.name,Alert)
 Vue.component(Confirm.name,Confirm)
@@ -45,7 +45,7 @@ Vue.component(Confirm.name,Confirm)
 * 直接在script标签里通过src引入，但你必须先引入vuejs的script  
 
 ``` html 
-<script src="dist/VueDialog.js"></script>
+<script src="dist/vue2-dialog.js"></script>
 ```
 
 * 直接在vue单文件组件里使用或者在html里使用组件

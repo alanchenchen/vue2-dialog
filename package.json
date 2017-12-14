@@ -1,14 +1,14 @@
 {
-  "name": "VueDialog",
+  "name": "vue2-dialog",
   "description": "a plugin for vue dialog ",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Alan Chen",
   "private": false,
   "license": "MIT",
-  "main": "dist/VueDialog.js",
+  "main": "dist/vue2-dialog.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alanchenchen/VueDialog"
+    "url": "https://github.com/alanchenchen/vue2-dialog"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",

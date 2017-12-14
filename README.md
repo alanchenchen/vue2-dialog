@@ -1,7 +1,7 @@
-# VueDialog
-> A mobile Vue plugin for VueDialog
+# vue2-dialog
+> A mobile Vue plugin for Dialog
 
-> pluginName:  VueDialog
+> pluginName:  vue2-dialog
 
 > version: 1.0.0
 
@@ -22,23 +22,23 @@
 
 [中文文档](./ChineaseREADME.md)
 ## How to use
-* NPM install the VueDialog plugin
+* NPM install the vue2-dialog plugin
 ```node
-npm install VueDialog --save
+npm install vue2-dialog --save
 ```
 
 #### 1.vue spa
 * import the plugin and use **(global use)**
 
 ``` javascript 
-import {VueDialog} from 'VueDialog'
+import {VueDialog} from 'vue2-dialog'
 Vue.use(VueDialog)
 ```
 
 * import some components that you need and use **(local use)**
 
 ``` javascript 
-import {Scroller,Alert,Confirm} from 'VueDialog'
+import {Scroller,Alert,Confirm} from 'vue2-dialog'
 Vue.component(Scroller.name,Scroller)
 Vue.component(Alert.name,Alert)
 Vue.component(Confirm.name,Confirm)
@@ -48,7 +48,7 @@ Vue.component(Confirm.name,Confirm)
 * directly write the script,in deed you have to `insert the vue.js` script firstly  
 
 ``` html 
-<script src="dist/VueDialog.js"></script>
+<script src="dist/vue2-dialog.js"></script>
 ```
 
 * use the components directly in your vue spa file or the Vue instance ,like
