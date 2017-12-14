@@ -76,6 +76,7 @@ Vue.component(Confirm.name,Confirm)
 | isShow      | `[Boolean]`|   whether show the alert  |
 
 *closeOnClickModal* `[Boolean]`
+
 | prop name  |      description                         |required| default |
 |:-----------:|:----------------------------------------:|:------:|:-------:|
 | `closeOnClickModal` | `[Boolean]`whether close alert by clicking the mask modal   |   No   |  false  |
@@ -121,6 +122,7 @@ export default {
 | isShow      | `[Boolean]`|   whether show the Confirm  |
 
 *closeOnClickModal* `[Boolean]`
+
 | prop name  |      description                         |required| default |
 |:-----------:|:----------------------------------------:|:------:|:-------:|
 | `closeOnClickModal` | `[Boolean]`whether close Confirm by clicking the mask modal   |   No   |  false  |
@@ -173,6 +175,7 @@ export default {
 | isShow      | `[Boolean]`|   whether show the Toast  | Yes | / |
 
 `type`
+
 | type name |           description                       |
 |:---------:|:-----------------------------------------:|
 |    top    | slide from the top |
@@ -220,11 +223,13 @@ export default {
 > menu must has structure like `[label:'del',content:'delete the data']`
 
 *cancelMode* `[Boolean]`
+
 | prop name  |      description                         |required| default |
 |:-----------:|:----------------------------------------:|:------:|:-------:|
 | `cancelMode` | `[Boolean]`whether show the cancel item   |   No   |  false  |
 
 *closeOnClickModal* `[Boolean]`
+
 | prop name  |      description                         |required| default |
 |:-----------:|:----------------------------------------:|:------:|:-------:|
 | `closeOnClickModal` | `[Boolean]`whether close ActionSheet by clicking the mask modal   |   No   |  false  |

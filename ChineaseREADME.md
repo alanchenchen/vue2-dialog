@@ -71,6 +71,7 @@ Vue.component(Confirm.name,Confirm)
 | isShow      | `[Boolean]`|  是否显示Alert,必须传入,而且为false,在需要显示的时候让其为true即可  |
 
 *closeOnClickModal* `[Boolean]`
+
 | prop name  |      description                         |required| default |
 |:-----------:|:----------------------------------------:|:------:|:-------:|
 | `closeOnClickModal` | `[Boolean]`是否通过点击遮罩层来关闭Alert  |   No   |  false  |
@@ -116,6 +117,7 @@ export default {
 | isShow      | `[Boolean]`|  是否显示Confirm,必须传入,而且为false,在需要显示的时候让其为true即可 |
 
 *closeOnClickModal* `[Boolean]`
+
 | prop name  |      description                         |required| default |
 |:-----------:|:----------------------------------------:|:------:|:-------:|
 | `closeOnClickModal` | `[Boolean]`是否通过点击遮罩层来关闭Confirm |   No   |  false  |
@@ -168,6 +170,7 @@ export default {
 | isShow      | `[Boolean]`|   是否显示Toast  | Yes | / |
 
 `type`
+
 | type name |           description                       |
 |:---------:|:-----------------------------------------:|
 |    top    | 从顶部滑入 |
@@ -215,11 +218,13 @@ export default {
 > menu内的菜单项必须是Object，必须要有label和content两个键名，比如`[label:'del',content:'delete the data']`
 
 *cancelMode* `[Boolean]`
+
 | prop name  |      description                         |required| default |
 |:-----------:|:----------------------------------------:|:------:|:-------:|
 | `cancelMode` | `[Boolean]`是否显示取消的菜单项   |   No   |  false  |
 
 *closeOnClickModal* `[Boolean]`
+
 | prop name  |      description                         |required| default |
 |:-----------:|:----------------------------------------:|:------:|:-------:|
 | `closeOnClickModal` | `[Boolean]`是否通过点击遮罩层来关闭ActionSheet  |   No   |  false  |
