@@ -53,7 +53,7 @@ Vue.component(Confirm.name,Confirm)
 
 * use the components directly in your vue spa file or the Vue instance ,like
 
-``` javascript 
+``` html 
 <Alert />
 <Confirm />
 <Toast />
@@ -67,6 +67,7 @@ Vue.component(Confirm.name,Confirm)
 ### 1. Alert
 #### props
  *alert* `[Object]`
+
 | key         |            value                         |description|
 |:-----------:|:----------------------------------------:|:------:|
 | title       | `[String]` or `[HTML Tag]`   |   title of the alert   |
@@ -110,6 +111,7 @@ export default {
 ### 2. Confirm
 #### props
  *confirm* `[Object]`
+
 | key         |            value                         |description|
 |:-----------:|:----------------------------------------:|:------:|
 | title       | `[String]` or `[HTML Tag]`   |   title of the Confirm   |
@@ -162,6 +164,7 @@ export default {
 
 #### props
  *toast* `[Object]`
+
 | key         |            value                         |description| required | default |
 |:-----------:|:----------------------------------------:|:---------:|:--------:|:-------:|
 | time       | `[Number]`  |control the time of the Toast | No | 500 |
@@ -208,6 +211,7 @@ export default {
 ### 4. ActionSheet
 #### props
  *actionSheet* `[Object]`
+
 | key         |            value                         |description|
 |:-----------:|:----------------------------------------:|:------:|
 | menu       | `[Array - Object]` |   items and the content of the ActionSheet   |

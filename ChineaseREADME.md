@@ -50,7 +50,7 @@ Vue.component(Confirm.name,Confirm)
 
 * 直接在vue单文件组件里使用或者在html里使用组件
 
-``` javascript 
+``` html 
 <Alert />
 <Confirm />
 <Toast />
@@ -62,6 +62,7 @@ Vue.component(Confirm.name,Confirm)
 ### 1. Alert
 #### props
  *alert* `[Object]`
+
 | key         |            value                         |description|
 |:-----------:|:----------------------------------------:|:------:|
 | title       | `[String]` or `[HTML Tag]`   |   Alert里显示的标题   |
@@ -105,6 +106,7 @@ export default {
 ### 2. Confirm
 #### props
  *confirm* `[Object]`
+
 | key         |            value                         |description|
 |:-----------:|:----------------------------------------:|:------:|
 | title       | `[String]` or `[HTML Tag]`   |   Confirm里的标题   |
@@ -157,6 +159,7 @@ export default {
 
 #### props
  *toast* `[Object]`
+
 | key         |            value                         |description| required | default |
 |:-----------:|:----------------------------------------:|:---------:|:--------:|:-------:|
 | time       | `[Number]`  |控制Toast显示的时间 | No | 500 |
@@ -203,6 +206,7 @@ export default {
 ### 4. ActionSheet
 #### props
  *actionSheet* `[Object]`
+
 | key         |            value                         |description|
 |:-----------:|:----------------------------------------:|:------:|
 | menu       | `[Array - Object]` |  ActionSheet里的菜单项   |
