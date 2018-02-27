@@ -14,7 +14,7 @@
 #### 此插件只适配了移动端，有问题请直接提issue.
 
 ## 插件能做什么
-* 你可以用插件来做`Alert`,`Confirm`,`ActionSheet(类似微信的上拉通知栏)`,`Toast`等弹窗组件，也可以适用插件内置的`AddressPicker(地址三级联动选择器)`,`Loading(全屏loading动画)` and `Scroller(集成上拉加载，下拉刷新和嵌到滚动多种功能)`
+* 你可以用插件来做`Alert`,`Confirm`,`ActionSheet(类似微信的上拉通知栏)`,`Toast`等弹窗组件，也可以使用插件内置的`AddressPicker(地址三级联动选择器)`,`Loading(全屏loading动画)` and `Scroller(集成上拉加载，下拉刷新和嵌到滚动多种功能)`
 
 ![dialog](./dialog.gif)
 
@@ -32,7 +32,7 @@ import {VueDialog} from 'vue2-dialog'
 Vue.use(VueDialog)
 ```
 
-* 通过import或者require 导入插件,手动调用Vue.use() ,按需加载(只会加载你需要的组件)
+* 通过import或者require 导入插件,手动调用Vue.component() ,按需加载(只会加载你需要的组件)
 
 ``` javascript 
 import {Scroller,Alert,Confirm} from 'vue2-dialog'
