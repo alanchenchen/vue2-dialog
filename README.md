@@ -332,6 +332,11 @@ export default {
 |:-----------:|:----------------------------------------:|:------:|:-------:|
 | `addressShow` | `[Boolean]`whether show the AddressPicker   |   Yes   |  /  |
 
+*closeOnClickModal* `[Boolean]`
+
+| prop name  |      description                         |required| default |
+|:-----------:|:----------------------------------------:|:------:|:-------:|
+| `closeOnClickModal` | `[Boolean]`whether close AddressPicker by clicking the mask modal   |   No   |  false  |
 
 #### emit events
 * `ok ` when you click the sure button,the AddressPicker will close and return the address data as the event param.

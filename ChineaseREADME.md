@@ -327,6 +327,11 @@ export default {
 |:-----------:|:----------------------------------------:|:------:|:-------:|
 | `addressShow` | `[Boolean]`是否显示AddressPicker   |   Yes   |  /  |
 
+*closeOnClickModal* `[Boolean]`
+
+| prop name  |      description                         |required| default |
+|:-----------:|:----------------------------------------:|:------:|:-------:|
+| `closeOnClickModal` | `[Boolean]`是否通过点击遮罩层来关闭AddressPicker  |   No   |  false  |
 
 #### emit events
 * `ok ` 点击确认按钮的自定义事件，AddressPicker会返回用户当前选择的省市区信息，在自定义事件里传参即可获取
