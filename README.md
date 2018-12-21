@@ -1,4 +1,9 @@
 # vue2-dialog
+
+![](https://img.shields.io/npm/v/vue2-dialog.svg)
+![](https://img.shields.io/npm/dt/vue2-dialog.svg)
+![](https://img.shields.io/github/license/alanchenchen/vue2-dialog.svg)
+
 > A mobile Vue plugin for Dialog
 
 > pluginName:  vue2-dialog
